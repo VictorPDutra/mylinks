@@ -1,14 +1,15 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-
-
 body {
-    background-color: black;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: #000;
     font-family: sans-serif;
-    background-image: linear-gradient(to right,black,rgba(34, 34, 34, 0.562));
 }
 
 img {
@@ -19,9 +20,8 @@ img {
 
 h1 {
     color: rgb(255, 255, 255);
-    margin-top: 31px;
+    margin-top: 40px;
     margin-bottom: 8px;
-
 }
 
 p {
@@ -29,14 +29,12 @@ p {
 }
 
 ul {
-    margin-top: 35px;
-    margin-left: 18px;
+    margin-top: 40px;
 }
 
 li {
     margin-bottom: 18px;
     list-style: none;
-
 }
 
 a {
@@ -50,9 +48,9 @@ a {
 }
 
 a:hover {
-    background-color: #8f9717;
-    color: rgb(0, 0, 0);
-    font-size: 105%;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 footer {
@@ -61,10 +59,9 @@ footer {
 }
 
 .container {
+    background-color: #000;
     width: 360px;
+    margin: 0 auto;
+    padding: 16px;
     text-align: center;
-    margin-top: 41px;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
